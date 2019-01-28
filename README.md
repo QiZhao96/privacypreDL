@@ -1,7 +1,15 @@
 # Sample implementations of Privacy Preserving DL from Literature
+## Getting started with PyTorch
+[mnist.py](https://github.com/debjyoti0891/privacypreDL/blob/master/mnist.py) uses a CNN for classification of the MNIST dataset. It also includes details of saving network state to file and reloading.
+The code is based on the following tutorials.
+* [CNN in PyTorch](https://adventuresinmachinelearning.com/convolutional-neural-networks-tutorial-in-pytorch/)
+* [CNN in PyTorch](https://blog.algorithmia.com/convolutional-neural-nets-in-pytorch/)
+* [Computing the output dimensions of network layers](https://discuss.pytorch.org/t/explaination-of-conv2d/8082/4)
+* [MNIST in PyTorch](https://nextjournal.com/gkoehler/pytorch-mnist)
 
-
-dssgd.py implements Distributed Selective Stochastic Gradient Descent based on the [Privacy Preserving Deep Learning](https://dl.acm.org/citation.cfm?id=2813687) on the MNIST dataset. 
+## [Privacy Preserving Deep Learning](https://dl.acm.org/citation.cfm?id=2813687) 
+[dssgd.py](https://github.com/debjyoti0891/privacypreDL/blob/master/dsgd.py)
+ implements Distributed Selective Stochastic Gradient Descent implemented on the MNIST dataset. 
 
 Currently supported parameters are as follows :-
 1. *trainers* : number of participants in DSSGD
